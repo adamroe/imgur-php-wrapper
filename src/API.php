@@ -9,7 +9,7 @@
 
 require 'vendor/autoload.php';
 
-class Imgur
+class API
 {
 
     /**
