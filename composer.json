@@ -1,18 +1,24 @@
 {
-  "name": "bndr/imgur-php-wrapper",
+  "name": "adamroe/php-imgur",
   "description": "Imgur API php client for easy usage",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "authors": [
-    {
-      "name": "Vadim Kravcenko",
-      "email": "vadim.kravcenko@gmail.com"
-    }
+      {
+        "name": "Adam Roe",
+        "email": "adam.roe@me.com",
+		"role": "Developer"
+      },
+      {
+        "name": "Vadim Kravcenko",
+        "email": "vadim.kravcenko@gmail.com",
+		"role": "Initial creator"
+      }
   ],
 
   "autoload": {
       "psr-4": {
-        "": "classes/"
+        "adamroe\\Imgur\\": "src/"
       }
   }
 }
